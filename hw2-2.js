@@ -1,5 +1,4 @@
-var myName = "Christopher Sullivan";
-var date = "02/08/2021";
+"Christopher Sullivan 02/08/2021";
 var attack = 20;
 var defense = 20;
 var enemyCount = 3;
@@ -9,4 +8,12 @@ var rangerAttack = attack * 3;
 var rangerDefense = defense - 1;
 var mageAttack = enemyCount ** attack;
 var mageDefense = defense / enemyCount;
-"The warrior's attack is :## and his defense is :##."
+console.log(typeof(attack));
+console.log(typeof(defense));
+console.log(typeof(enemyCount));
+console.log(typeof(warriorAttack));
+console.log(typeof(warriorDefense));
+console.log(typeof(rangerAttack));
+console.log(typeof(rangerDefense));
+console.log(typeof(mageAttack));
+console.log(typeof(mageDefense));
