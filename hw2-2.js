@@ -17,3 +17,4 @@ console.log(typeof(rangerAttack));
 console.log(typeof(rangerDefense));
 console.log(typeof(mageAttack));
 console.log(typeof(mageDefense));
+"The warrior's attack is :## and the warrior's defense is :##."
