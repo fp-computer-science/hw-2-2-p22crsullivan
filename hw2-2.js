@@ -1,20 +1,19 @@
-"Christopher Sullivan 02/08/2021";
+// Author: CRS 2/8/2021
 var attack = 20;
 var defense = 20;
 var enemyCount = 3;
+var warriorAttack;
+var mageAttack;
+var rangerAttack;
+var warriorDefense;
+var mageDefense;
+var rangerDefense;
 var warriorAttack = attack - 2;
 var warriorDefense = defense * 2;
 var rangerAttack = attack * 3;
 var rangerDefense = defense - 1;
 var mageAttack = enemyCount ** attack;
 var mageDefense = defense / enemyCount;
-console.log(typeof(attack));
-console.log(typeof(defense));
-console.log(typeof(enemyCount));
-console.log(typeof(warriorAttack));
-console.log(typeof(warriorDefense));
-console.log(typeof(rangerAttack));
-console.log(typeof(rangerDefense));
-console.log(typeof(mageAttack));
-console.log(typeof(mageDefense));
-"The warrior's attack is :## and the warrior's defense is :##."
+console.log("The warrior's attack is:" + warriorAttack + "and the warrior's defense is:" + warriorDefense +);
+console.log("The ranger's attack is:" + rangerAttack + "and the ranger's defense is:" + rangerDefense +);
+console.log("The mage's attack is:" + mageAttack + "and the mage's defense is:" + mageDefense +);
